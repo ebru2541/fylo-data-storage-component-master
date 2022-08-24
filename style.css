@@ -1,0 +1,129 @@
+body {
+  background-color: hsl(229, 57%, 11%);
+  height: 100vh;
+  background-image: url(./img/bg-desktop.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container {
+  width: 80%;
+  /* height: 30%; */
+  min-width: 500px;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20%;
+  align-items: center;
+}
+.box1 {
+  /* border: 2px solid red; */
+  background-color: hsl(228, 56%, 26%);
+  width: 35%;
+  height: 25%;
+  padding: 3%;
+  border-radius: 5px 50px 8px 8px;
+  margin-top: 4%;
+}
+.logo1 img {
+  width: 40%;
+}
+.icons {
+  margin-top: 6%;
+  display: flex;
+  align-items: center;
+}
+.icons img {
+  width: 35px;
+  height: 30px;
+  margin-right: 10%;
+  padding: 3%;
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 8px;
+}
+.box2 {
+  width: 50%;
+  margin-left: 3%;
+  background-color: hsl(228, 56%, 26%);
+  color: hsl(243, 100%, 93%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 7%;
+  max-width: 400px;
+  font-size: 14px;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+.cubuk {
+  width: 90%;
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 20px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 5%;
+}
+.renkli_cubuk {
+  width: 80%;
+  background-image: linear-gradient(
+    to right,
+    hsl(6, 67%, 71%),
+    hsl(335, 91%, 23%)
+  );
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 20px;
+}
+.top {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  /* margin-left: 300px; */
+  display: flex;
+}
+.gb {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+  font-size: 10px;
+}
+.yazı {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.box2 > div {
+  width: 100%;
+  padding: 0 10px;
+}
+.message {
+  min-width: 100px;
+  min-height: 50px;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: -32%;
+  margin-bottom: 30%;
+  font-family: ‘Raleway’, sans-serif;
+  display: flex;
+  align-items: center;
+}
+.ilk-yazı {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 10px;
+}
+.message p {
+  font-size: 10px;
+}
+.message p span {
+  font-size: 30px;
+  font-weight: bold;
+}
